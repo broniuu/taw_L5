@@ -1,2 +1,0 @@
-aplikacja wydrukowała w konsoli komunikat ‘new connection’ za pomoocą
-event listenera i zapytania http;
