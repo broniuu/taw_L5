@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de9bb387-c639-402c-8882-74ac24c70e1e" name="Changes" comment="add lab7">
+      <change afterPath="$PROJECT_DIR$/rectangle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DAO/passwordDAO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DAO/tokenDAO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DAO/userDAO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/REST/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/REST/user.endpoint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/business/business.container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/business/user.manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/middleware/admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/middleware/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/service/applicationException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/service/momentWrapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/service/mongoConverter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lab7" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NjqsaGLkxGva58WKIRSIlRczH1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Uczelnia/III_Semsestr/TAI/taw_L5/index.js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "C:\\Uczelnia\\III_Semsestr\\TAI\\taw_L5\\blog\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Uczelnia\III_Semsestr\TAI\taw_L5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Uczelnia\III_Semsestr\TAI\taw_L5" />
+      <recent name="C:\Uczelnia\III_Semsestr\TAI\taw_L5\app\REST" />
+      <recent name="C:\Uczelnia\III_Semsestr\TAI\taw_L5\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="run node.js" type="NodeJSConfigurationType" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de9bb387-c639-402c-8882-74ac24c70e1e" name="Changes" comment="" />
+      <created>1680188046497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680188046497</updated>
+      <workItem from="1680188047624" duration="215000" />
+      <workItem from="1681392335386" duration="4101000" />
+      <workItem from="1681839071993" duration="2000" />
+      <workItem from="1682609806628" duration="7954000" />
+      <workItem from="1682758128069" duration="2007000" />
+    </task>
+    <task id="LOCAL-00001" summary="add content">
+      <created>1680188094229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680188094229</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add lab6">
+      <created>1681396472751</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681396472751</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add lab7">
+      <created>1682617387850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682617387850</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/rectangle.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add content" />
+    <MESSAGE value="add lab6" />
+    <MESSAGE value="add lab7" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lab7" />
+  </component>
+</project>
