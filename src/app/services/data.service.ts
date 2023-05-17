@@ -11,4 +11,8 @@ export class DataService {
   getAll() {
     return this.http.get(this.url + '/api/posts');
   }
+
+  getById(id: string) {
+    return this.http.get(this.url + '/api/posts/' + id);
+  }
 }

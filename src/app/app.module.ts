@@ -7,11 +7,16 @@ import { BlogComponent } from './components/blog/blog.component';
 import { BlogItemComponent } from './components/blog-item/blog-item.component';
 import { BlogItemTextComponent } from './components/blog-item-text/blog-item-text.component';
 import { BlogItemImageComponent } from './components/blog-item-image/blog-item-image.component';
-import { BlogItemImageDetailsComponent } from './components/blog-item-image-details/blog-item-image-details.component';
+import { BlogItemDetailsComponent } from './components/blog-item-details/blog-item-details.component';
 import {RouterModule, Routes} from "@angular/router";
 import {HttpClientModule} from "@angular/common/http";
 import {DataService} from "./services/data.service";
 import { SummaryPipe } from './pipes/summary.pipe';
+import { SearchBarComponent } from './shared/search-bar/search-bar.component';
+import {FormsModule} from "@angular/forms";
+import { BlogHomeComponent } from './components/blog-home/blog-home.component';
+import { FilterTextPipe } from './pipes/filter-text.pipe';
+import { TextFormatDirective } from './directives/text-format.directive';
 
 const routes: Routes = [
   {
@@ -26,14 +31,19 @@ const routes: Routes = [
     BlogItemComponent,
     BlogItemTextComponent,
     BlogItemImageComponent,
-    BlogItemImageDetailsComponent,
-    SummaryPipe
+    BlogItemDetailsComponent,
+    SummaryPipe,
+    SearchBarComponent,
+    BlogHomeComponent,
+    FilterTextPipe,
+    TextFormatDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(routes),
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   exports: [RouterModule],
   providers: [DataService],

@@ -1,4 +1,7 @@
 <div class="card" style="width: 18rem;">
   <app-blog-item-image [image]="image"></app-blog-item-image>
-  <app-blog-item-text [text]="text"></app-blog-item-text>
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <app-blog-item-text [text]="text" [id]="id"></app-blog-item-text>
+  </div>
 </div>
