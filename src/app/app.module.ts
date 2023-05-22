@@ -17,6 +17,7 @@ import {FormsModule} from "@angular/forms";
 import { BlogHomeComponent } from './components/blog-home/blog-home.component';
 import { FilterTextPipe } from './pipes/filter-text.pipe';
 import { TextFormatDirective } from './directives/text-format.directive';
+import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
   {
@@ -36,7 +37,8 @@ const routes: Routes = [
     SearchBarComponent,
     BlogHomeComponent,
     FilterTextPipe,
-    TextFormatDirective
+    TextFormatDirective,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
