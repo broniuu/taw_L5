@@ -1,0 +1,16 @@
+<div class="container">
+  <form action="post" autocomplete="off" method="POST">
+    <div class="input-group">
+      <input [(ngModel)]="post.title" name="title" type="text" class="form-control">
+    </div>
+    <div class="input-group">
+      <input [(ngModel)]="post.text" name="text" type="text" class="form-control">
+    </div>
+    <div class="input-group">
+      <input [(ngModel)]="post.image" name="image" type="text" class="form-control">
+    </div>
+    <button (click)="addPost()" class="btn btn-outline-success" type="submit">
+      Add Post
+    </button>
+  </form>
+</div>
