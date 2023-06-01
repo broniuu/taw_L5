@@ -1,0 +1,17 @@
+<selectize></selectize>
+<div class="container">
+  <button class="btn btn-primary" [routerLink]="['/add-post']">Add new post</button>
+  <div *ngIf="!!items$?.length" class="elems">
+    <div *ngFor="let item of items$ | filter: filterText">
+      <blog-item
+        [id]="item.id"
+        [image]="item.image"
+        [text]="item.text"
+        [title]="item.title">
+      </blog-item>
+    </div>
+  </div>
+  <div *ngIf="!items$?.length">
+    No results.
+  </div>
+</div>

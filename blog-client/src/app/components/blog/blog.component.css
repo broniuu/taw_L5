@@ -1,0 +1,8 @@
+.elems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.elems div {
+  margin: 5px;
+}

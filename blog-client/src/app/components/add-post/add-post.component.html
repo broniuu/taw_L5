@@ -1,0 +1,24 @@
+<div class="container">
+  <h4>Add post:</h4>
+  <form (ngSubmit)="save()">
+    <div class="form-group">
+      <label class="col-form-label">Title:</label>
+      <input name="title" type="text" class="form-control" placeholder="Title" [(ngModel)]="post.title">
+    </div>
+
+    <div class="form-group">
+      <label class="col-form-label">image:</label>
+      <input name="url" type="text" class="form-control" placeholder="URL" [(ngModel)]="post.image">
+    </div>
+
+    <div class="form-group">
+      <label class="col-form-label">Text:</label>
+      <textarea name="content" type="text" class="form-control" placeholder="Text" [(ngModel)]="post.text"
+                rows="10"></textarea>
+    </div>
+
+    <div class="form-group button">
+      <button type="submit" class="btn btn-primary">Add post</button>
+    </div>
+  </form>
+</div>
